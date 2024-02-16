@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "4iweJOLD1eebfT3a18pPlYTS815HChWurz4ey6nykAuc6LWJVkiLKGM1rfISZR7VyUOugicZWbMJg1wyo3rMog==",
+  "success": false,
+  "projectFilePath": "D:\\Prog\\Zero\\Max-CRM\\CRM.Entities\\CRM.Entities.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1010",
+      "level": "Error",
+      "message": "The PackageReference items Microsoft.Windows.Compatibility;Microsoft.Extensions.Logging.Abstractions;Xtensive.Orm.PostgresSql;Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers do not have corresponding PackageVersion."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<Project>
+    <PropertyGroup>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageVersion Include="Xtensive.Orm" Version="7.1.0" />
+        <PackageVersion Include="Xtensive.Orm.BulkOperations" Version="7.1.0" />
+        <PackageVersion Include="Xtensive.Orm.PostgreSql" Version="7.1.0" />
+    </ItemGroup>
+</Project>
