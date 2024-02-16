@@ -1,21 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Prog\\Zero\\Max-CRM\\CRM.Entities\\CRM.Entities.csproj": {}
+    "D:\\GitHub\\zero\\Max-CRM\\CRM.Entities\\CRM.Entities.csproj": {}
   },
   "projects": {
-    "D:\\Prog\\Zero\\Max-CRM\\CRM.Entities\\CRM.Entities.csproj": {
+    "D:\\GitHub\\zero\\Max-CRM\\CRM.Entities\\CRM.Entities.csproj": {
       "version": "0.1.0",
       "restore": {
-        "projectUniqueName": "D:\\Prog\\Zero\\Max-CRM\\CRM.Entities\\CRM.Entities.csproj",
+        "projectUniqueName": "D:\\GitHub\\zero\\Max-CRM\\CRM.Entities\\CRM.Entities.csproj",
         "projectName": "CRM.Entities",
-        "projectPath": "D:\\Prog\\Zero\\Max-CRM\\CRM.Entities\\CRM.Entities.csproj",
-        "packagesPath": "C:\\Users\\farad\\.nuget\\packages\\",
-        "outputPath": "D:\\Prog\\Zero\\Max-CRM\\CRM.Entities\\obj\\",
+        "projectPath": "D:\\GitHub\\zero\\Max-CRM\\CRM.Entities\\CRM.Entities.csproj",
+        "packagesPath": "C:\\Users\\ustugov\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\zero\\Max-CRM\\CRM.Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\farad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ustugov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -23,7 +25,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/x-tensive/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -46,37 +49,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "(, )",
-              "versionCentrallyManaged": true
-            },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "target": "Package",
-              "version": "(, )",
-              "versionCentrallyManaged": true
-            },
-            "Microsoft.Windows.Compatibility": {
-              "target": "Package",
-              "version": "(, )",
-              "versionCentrallyManaged": true
-            },
             "Xtensive.Orm": {
               "target": "Package",
-              "version": "[7.1.0, )",
-              "versionCentrallyManaged": true
+              "version": "[7.1.0, )"
             },
-            "Xtensive.Orm.PostgresSql": {
+            "Xtensive.Orm.PostgreSql": {
               "target": "Package",
-              "version": "(, )",
-              "versionCentrallyManaged": true
+              "version": "[7.1.0, )"
             }
-          },
-          "centralPackageVersions": {
-            "Xtensive.Orm": "[7.1.0, )",
-            "Xtensive.Orm.BulkOperations": "[7.1.0, )",
-            "Xtensive.Orm.PostgreSql": "[7.1.0, )"
           },
           "imports": [
             "net461",

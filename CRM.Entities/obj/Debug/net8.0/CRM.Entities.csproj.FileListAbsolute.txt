@@ -1,0 +1,9 @@
+D:\GitHub\zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.csproj.AssemblyReference.cache
+D:\GitHub\zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.AssemblyInfoInputs.cache
+D:\GitHub\zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.AssemblyInfo.cs
+D:\GitHub\zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.csproj.CoreCompileInputs.cache
+D:\GitHub\zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.sourcelink.json
+D:\GitHub\zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.dll
+D:\GitHub\zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\refint\CRM.Entities.dll
+D:\GitHub\zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.pdb
