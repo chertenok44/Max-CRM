@@ -1,8 +1,8 @@
-#nullable enable
 using Xtensive.Orm;
 
 namespace CRM.Entities;
 
+[HierarchyRoot]
 public abstract class AttachmentOwner : BaseEntity
 {
     [Field]

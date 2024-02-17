@@ -7,3 +7,16 @@ D:\GitHub\zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.sourcelink.jso
 D:\GitHub\zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.dll
 D:\GitHub\zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\refint\CRM.Entities.dll
 D:\GitHub\zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.pdb
+D:\Prog\Zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Prog\Zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.AssemblyInfoInputs.cache
+D:\Prog\Zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.AssemblyInfo.cs
+D:\Prog\Zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.csproj.CoreCompileInputs.cache
+D:\Prog\Zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.sourcelink.json
+D:\Prog\Zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.dll
+D:\Prog\Zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\refint\CRM.Entities.dll
+D:\Prog\Zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.pdb
+D:\Prog\Zero\Max-CRM\CRM.Entities\bin\Debug\net8.0\CRM.Entities.deps.json
+D:\Prog\Zero\Max-CRM\CRM.Entities\bin\Debug\net8.0\CRM.Entities.dll
+D:\Prog\Zero\Max-CRM\CRM.Entities\bin\Debug\net8.0\CRM.Entities.pdb
+D:\Prog\Zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\ref\CRM.Entities.dll
+D:\Prog\Zero\Max-CRM\CRM.Entities\obj\Debug\net8.0\CRM.Entities.csproj.AssemblyReference.cache

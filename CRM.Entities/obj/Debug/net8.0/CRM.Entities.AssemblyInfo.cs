@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright 2016-2024 Zero-Team")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Max-CRM")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.1.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0.0+2986b69a0f9ee8acf429f50beb01f68534be4488")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.1.0.0+b617796af252758ecda2d7f1f143dc8f36952e63")]
 [assembly: System.Reflection.AssemblyProductAttribute("Max-CRM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRM.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.1.0.0")]

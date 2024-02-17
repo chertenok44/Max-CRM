@@ -1,18 +1,23 @@
-#nullable enable
 using Xtensive.Orm;
 
 namespace CRM.Entities;
 
-public class BaseEntity : Entity
+public abstract class BaseEntity : Entity
 {
-    public required Guid Id { get; set; }
+    [Field]
+    public Guid Id { get; set; }
 
-    public required DateTimeOffset CreatedOn { get; set; }
-    public required User CreatedBy { get; set; }
+    [Field]
+    public DateTimeOffset CreatedOn { get; set; }
 
-    public required DateTimeOffset LastUpdatesAt { get; set; }
+    [Field]
+    public User CreatedBy { get; set; }
 
-    public required User LastUpdatetBy { get; set; }
+    [Field]
+    public DateTimeOffset LastUpdatesAt { get; set; }
 
-    internal BaseEntity(Session session):base(session) { }
+    [Field]
+    public User LastUpdatetBy { get; set; }
+
+    internal BaseEntity(Session session) : base(session) { }
 }
