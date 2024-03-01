@@ -9,7 +9,7 @@ namespace CRM.Entities
         public required OrderState PrevState { get; set; }
 
         [Field]
-        public required  OrderState CurrentState { get; set; }
+        public required OrderState CurrentState { get; set; }
 
         public OrderHistory(OrderState prevState, OrderState currentState, Session session) : base(session)
         {

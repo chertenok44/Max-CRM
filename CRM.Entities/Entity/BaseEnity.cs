@@ -4,20 +4,20 @@ namespace CRM.Entities;
 
 public abstract class BaseEntity : Entity
 {
-    [Field]
+    [Key, Field]
     public Guid Id { get; set; }
 
     [Field]
     public DateTimeOffset CreatedOn { get; set; }
 
     [Field]
-    public User CreatedBy { get; set; }
+    public string CreatedBy { get; set; }
 
     [Field]
-    public DateTimeOffset LastUpdatesAt { get; set; }
+    public DateTimeOffset LastUpdateAt { get; set; }
 
     [Field]
-    public User LastUpdatetBy { get; set; }
+    public string LastUpdatetBy { get; set; }
 
     internal BaseEntity(Session session) : base(session) { }
 }

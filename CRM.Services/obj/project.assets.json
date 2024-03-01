@@ -214,7 +214,7 @@
           }
         },
         "build": {
-          "build/net6.0/Xtensive.Orm.targets": {}
+          "build/net6.0/_._": {}
         }
       },
       "Xtensive.Orm.PostgreSql/7.1.0": {
@@ -242,6 +242,21 @@
         },
         "runtime": {
           "bin/placeholder/CRM.Core.dll": {}
+        }
+      },
+      "CRM.Entities/0.1.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CRM.Core": "0.1.0",
+          "Xtensive.Orm": "7.1.0",
+          "Xtensive.Orm.PostgreSql": "7.1.0"
+        },
+        "compile": {
+          "bin/placeholder/CRM.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRM.Entities.dll": {}
         }
       }
     }
@@ -587,13 +602,16 @@
       "type": "project",
       "path": "../CRM.Core/CRM.Core.csproj",
       "msbuildProject": "../CRM.Core/CRM.Core.csproj"
+    },
+    "CRM.Entities/0.1.0": {
+      "type": "project",
+      "path": "../CRM.Entities/CRM.Entities.csproj",
+      "msbuildProject": "../CRM.Entities/CRM.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CRM.Core >= 0.1.0",
-      "Xtensive.Orm >= 7.1.0",
-      "Xtensive.Orm.PostgreSql >= 7.1.0"
+      "CRM.Entities >= 0.1.0"
     ]
   },
   "packageFolders": {
@@ -602,11 +620,11 @@
   "project": {
     "version": "0.1.0",
     "restore": {
-      "projectUniqueName": "D:\\Prog\\Zero\\Max-CRM\\CRM.Entities\\CRM.Entities.csproj",
-      "projectName": "CRM.Entities",
-      "projectPath": "D:\\Prog\\Zero\\Max-CRM\\CRM.Entities\\CRM.Entities.csproj",
+      "projectUniqueName": "D:\\Prog\\Zero\\Max-CRM\\CRM.Services\\CRM.Services.csproj",
+      "projectName": "CRM.Services",
+      "projectPath": "D:\\Prog\\Zero\\Max-CRM\\CRM.Services\\CRM.Services.csproj",
       "packagesPath": "C:\\Users\\farad\\.nuget\\packages\\",
-      "outputPath": "D:\\Prog\\Zero\\Max-CRM\\CRM.Entities\\obj\\",
+      "outputPath": "D:\\Prog\\Zero\\Max-CRM\\CRM.Services\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
       "configFilePaths": [
@@ -624,8 +642,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Prog\\Zero\\Max-CRM\\CRM.Core\\CRM.Core.csproj": {
-              "projectPath": "D:\\Prog\\Zero\\Max-CRM\\CRM.Core\\CRM.Core.csproj"
+            "D:\\Prog\\Zero\\Max-CRM\\CRM.Entities\\CRM.Entities.csproj": {
+              "projectPath": "D:\\Prog\\Zero\\Max-CRM\\CRM.Entities\\CRM.Entities.csproj"
             }
           }
         }
@@ -644,18 +662,6 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
-        "dependencies": {
-          "Xtensive.Orm": {
-            "target": "Package",
-            "version": "[7.1.0, )",
-            "versionCentrallyManaged": true
-          },
-          "Xtensive.Orm.PostgreSql": {
-            "target": "Package",
-            "version": "[7.1.0, )",
-            "versionCentrallyManaged": true
-          }
-        },
         "centralPackageVersions": {
           "Xtensive.Orm": "[7.1.0, )",
           "Xtensive.Orm.BulkOperations": "[7.1.0, )",

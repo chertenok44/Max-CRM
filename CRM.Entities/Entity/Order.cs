@@ -6,10 +6,10 @@ namespace CRM.Entities;
 public class Order : BaseEntity
 {
     [Field(Nullable = false)]
-    public required Requets Requets { get; set; }
+    public required Request Request { get; set; }
 
     [Field(Nullable = false )]
-    public OrderState State { get; set; }
+    public required OrderState State { get; set; }
 
-    internal Order(Session session) : base(session) { }
+    public Order(Session session) : base(session) { }
 }

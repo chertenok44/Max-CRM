@@ -3,7 +3,7 @@ using Xtensive.Orm;
 namespace CRM.Entities;
 
 [HierarchyRoot]
-public class Requets : BaseEntity
+public class Request : BaseEntity
 {
     [Field(Nullable = false)]
     public required Client Client { get; set; }
@@ -12,7 +12,7 @@ public class Requets : BaseEntity
     [Association(PairTo = nameof(Attachment.Owner), OnOwnerRemove = OnRemoveAction.Cascade, OnTargetRemove = OnRemoveAction.Clear)]
     public EntitySet<Attachment> Attachments { get; set; }
 
-    internal Requets(Client client, Session session) : base(session)
+    internal Request(Client client, Session session) : base(session)
     {
         Client = client;
     }

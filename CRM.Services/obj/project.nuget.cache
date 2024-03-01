@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SVO5TS9zfN19zgNOo43j+ZczvRG+eMqln7vFqS+ahc2r9up/DdPVdvjMZ2oMqdE73l1wgbJKz/xsTRN9LzzV6A==",
+  "dgSpecHash": "SHAIUvN/1F3uX1abw6tn4YOEqZoXAZLN2FSBvi+XKaFbpXC8igZEpKjuaUeFgms3gedp0XmFX3RyYOjSv1NxbA==",
   "success": true,
-  "projectFilePath": "D:\\Prog\\Zero\\Max-CRM\\CRM.Entities\\CRM.Entities.csproj",
+  "projectFilePath": "D:\\Prog\\Zero\\Max-CRM\\CRM.Services\\CRM.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\farad\\.nuget\\packages\\bitfaster.caching\\2.0.0\\bitfaster.caching.2.0.0.nupkg.sha512",
     "C:\\Users\\farad\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",

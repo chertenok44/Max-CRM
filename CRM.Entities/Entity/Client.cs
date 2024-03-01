@@ -9,5 +9,5 @@ public class Client : BaseEntity
     [Field(Nullable = false)]
     public required string Name { get; set; }
 
-    internal Client(Session session) : base(session) { }
+    public Client(Session session) : base(session) { }
 }
